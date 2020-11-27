@@ -147,7 +147,7 @@ post_filters=[]:  Any filters to send to Elasticsearch during the *expanded quer
 
 Finally(ish) there are a number of hyperparameters to play with, which all (except `n_seed_docs`) map to variables [documented here](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-mlt-query.html#mlt-query-term-selection).
 ```
-n_seed_docs=None (int):       Use a maxmimum of this many seed documents.
+n_seed_docs=None (int):       Use a maximum of this many seed documents.
 min_term_freq=1 (int):        Only consider seed terms which occur in all documents with this frequency.
 max_query_terms=10 (int):     Maximum number of important terms to identify in the seed documents.
 min_doc_frac=0.001 (float):   Only consider seed terms which appear more than this fraction of the seed docs.
